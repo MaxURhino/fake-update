@@ -1,0 +1,65 @@
+@font-face {
+    font-family: "Segoe Boot Semilight";
+    src: url("https://raw.githubusercontent.com/keithtmc123/Clover-EFI/refs/heads/master/EFI/BOOT/Microsoft/Boot/Fonts/segoe_slboot.ttf");
+}
+body:has(span.update-modifier) {
+    background: black;
+    overflow: hidden;
+}
+.update {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+.update-contents {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.update-text-line {
+    text-align: center;
+    color: white;
+    margin: 0;
+    font-synthesis: none;
+}
+.windows-update-text-line {
+    font-family: "Segoe Boot Semilight";
+    -webkit-text-stroke: 0.125px white;
+    font-size: 25px;
+}
+.windows-update-icon {
+    color: white;
+    text-align: center;
+    justify-self: center;
+    position: absolute;
+    left: 50%;
+    top: -4rem;
+    transform: translateX(-50%);
+    font-size: 3.5vh;
+    font-family: "Segoe Boot Semilight";
+}
+.fake-updates {
+    justify-items: center;
+}
+.fake-update-row {
+    display: flex;
+}
+.fake-update {
+    margin: 2.5px;
+}
+.homepage {
+    text-align: center;
+    font-family: "Helvetica"
+}
+.homepage h1 {
+    margin-bottom:0;
+}
+.homepage h3 {
+    margin-top: 0;
+    margin-bottom: 5%;
+}
+:fullscreen {
+    cursor:none;
+}
