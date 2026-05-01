@@ -2,6 +2,9 @@
     font-family: "Segoe Boot Semilight";
     src: url("https://raw.githubusercontent.com/keithtmc123/Clover-EFI/refs/heads/master/EFI/BOOT/Microsoft/Boot/Fonts/segoe_slboot.ttf");
 }
+body {
+    background: white;
+}
 body:has(span.update-modifier) {
     background: black;
     overflow: hidden;
